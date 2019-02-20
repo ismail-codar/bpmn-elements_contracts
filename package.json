@@ -1,0 +1,32 @@
+{
+  "name": "@process-engine/bpmn-elements_contracts",
+  "version": "1.0.0",
+  "description": "A collection of BPMN Elements used by bpmn-js as interfaces.",
+  "main": "dist/commonjs/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "gulp build",
+    "prepare": "npm run build",
+    "lint": "gulp lint",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/process-engine/bpmn-elements_contracts.git"
+  },
+  "author": "Bastian Schnittger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/process-engine/bpmn-elements_contracts/issues"
+  },
+  "homepage": "https://github.com/process-engine/bpmn-elements_contracts#readme",
+  "devDependencies": {
+    "@essential-projects/tslint-config": "^1.1.5",
+    "gulp": "^4.0.0",
+    "gulptraum": "^3.0.0",
+    "gulptraum-typescript": "^2.0.0",
+    "tsconfig": "^7.0.0",
+    "tslint": "^5.12.0",
+    "typescript": "^3.3.3"
+  }
+}
