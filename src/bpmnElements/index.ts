@@ -23,3 +23,4 @@ export {IEnumValue} from './IEnumValue';
 export {IConnection} from './IConnection';
 export {IServiceTaskElement} from './IServiceTaskElement';
 export {IShape} from './IShape';
+export {IDefinitions} from './IDefinitions';
