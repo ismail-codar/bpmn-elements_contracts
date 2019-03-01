@@ -24,3 +24,7 @@ export {IConnection} from './IConnection';
 export {IServiceTaskElement} from './IServiceTaskElement';
 export {IShape} from './IShape';
 export {IDefinitions} from './IDefinitions';
+export {IEventElement} from './IEventElement';
+export {IEventDefinition} from './IEventDefinition';
+export {ITimerEventElement} from './ITimerEventElement';
+export {ITimerEventDefinition} from './ITimerEventDefinition';
