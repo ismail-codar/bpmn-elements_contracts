@@ -1,5 +1,4 @@
 export {ICallActivityElement} from './ICallActivityElement';
-export {IConditionExpression} from './IConditionExpression';
 export {IDocumentation} from './IDocumentation';
 export {IEscalation} from './IEscalation';
 export {IEscalationElement} from './IEscalationElement';
@@ -37,3 +36,7 @@ export {IError} from './IError';
 export {ISignalEventElement} from './ISignalEventElement';
 export {ISignalEventDefinition} from './ISignalEventDefinition';
 export {ISignal} from './ISignal';
+// Conditional Events
+export {IConditionalEventElement} from './IConditionalEventElement';
+export {IConditionalEventDefinition} from './IConditionalEventDefinition';
+export {IConditionExpression} from './IConditionExpression';

@@ -1,5 +1,4 @@
-import {IModdleElement} from './IModdleElement';
-
-export interface IConditionExpression extends IModdleElement {
+export interface IConditionExpression {
+  $type: string;
   body?: string;
 }
