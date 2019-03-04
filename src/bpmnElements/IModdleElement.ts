@@ -12,7 +12,6 @@ export interface IModdleElement {
   $attrs?: any;
   $parent?: IModdleElement;
   extensionElements?: IExtensionElement;
-  eventDefinitions?: Array<IModdleElement>;
   conditionExpression?: IConditionExpression;
   flowElements?: Array<IModdleElement>;
   di?: IModdleElement;
@@ -23,9 +22,6 @@ export interface IModdleElement {
   participants?: Array<IModdleElement>;
   processRef?: IProcessRef;
   default?: IModdleElement;
-  timeDuration?: IModdleElement;
-  timeCycle?: IModdleElement;
-  timeDate?: IModdleElement;
   condition?: IModdleElement;
   body?: string;
   variableName?: string;
