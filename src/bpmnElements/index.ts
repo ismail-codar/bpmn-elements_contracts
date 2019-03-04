@@ -33,6 +33,7 @@ export {ISignalEventDefinition} from './ISignalEventDefinition';
 export {ISignal} from './ISignal';
 
 // Message Events
+export {IMessageTask} from './IMessageTask';
 export {IMessageEventElement} from './IMessageEventElement';
 export {IMessageEventDefinition} from './IMessageEventDefinition';
 export {IMessage} from './IMessage';
