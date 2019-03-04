@@ -36,6 +36,12 @@ export {IError} from './IError';
 export {ISignalEventElement} from './ISignalEventElement';
 export {ISignalEventDefinition} from './ISignalEventDefinition';
 export {ISignal} from './ISignal';
+
+// Message Events
+export {IMessageEventElement} from './IMessageEventElement';
+export {IMessageEventDefinition} from './IMessageEventDefinition';
+export {IMessage} from './IMessage';
+
 // Escalation Events
 export {IEscalationEventElement} from './IEscalationEventElement';
 export {IEscalationEventDefinition} from './IEscalationEventDefinition';
