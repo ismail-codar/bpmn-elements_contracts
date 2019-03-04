@@ -36,6 +36,11 @@ export {IError} from './IError';
 export {ISignalEventElement} from './ISignalEventElement';
 export {ISignalEventDefinition} from './ISignalEventDefinition';
 export {ISignal} from './ISignal';
+// Escalation Events
+export {IEscalationEventElement} from './IEscalationEventElement';
+export {IEscalationEventDefinition} from './IEscalationEventDefinition';
+export {IEscalation} from './IEscalation';
+
 // Conditional Events
 export {IConditionalEventElement} from './IConditionalEventElement';
 export {IConditionalEventDefinition} from './IConditionalEventDefinition';
