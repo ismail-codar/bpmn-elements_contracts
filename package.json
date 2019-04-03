@@ -15,7 +15,7 @@
     "url": "git+https://github.com/process-engine/bpmn-elements_contracts.git"
   },
   "author": "Bastian Schnittger",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/process-engine/bpmn-elements_contracts/issues"
   },
