@@ -31,4 +31,6 @@ export interface IModdleElement {
   outgoing?: Array<IModdleElement>;
   sourceRef?: IModdleElement;
   calledElement?: string;
+  categoryValueRef?: IModdleElement;
+  value?: string;
 }
