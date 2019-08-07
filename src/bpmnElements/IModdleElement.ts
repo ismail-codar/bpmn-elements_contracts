@@ -2,7 +2,6 @@ import {IConditionExpression} from './IConditionExpression';
 import {IDocumentation} from './IDocumentation';
 import {IExtensionElement} from './IExtensionElement';
 import {IProcessRef} from './IProcessRef';
-import {IPropertiesElement} from './IPropertiesElement';
 
 export interface IModdleElement {
   id: string;
