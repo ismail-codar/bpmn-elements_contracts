@@ -47,3 +47,7 @@ export {IEscalation} from './IEscalation';
 export {IConditionalEventElement} from './IConditionalEventElement';
 export {IConditionalEventDefinition} from './IConditionalEventDefinition';
 export {IConditionExpression} from './IConditionExpression';
+
+// Link Events
+export {ILinkEventElement} from './ILinkEventElement';
+export {ILinkEventDefinition} from './ILinkEventDefinition';

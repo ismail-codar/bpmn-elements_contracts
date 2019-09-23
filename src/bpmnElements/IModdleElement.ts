@@ -2,7 +2,6 @@ import {IConditionExpression} from './IConditionExpression';
 import {IDocumentation} from './IDocumentation';
 import {IExtensionElement} from './IExtensionElement';
 import {IProcessRef} from './IProcessRef';
-import {IPropertiesElement} from './IPropertiesElement';
 
 export interface IModdleElement {
   id: string;
@@ -31,4 +30,6 @@ export interface IModdleElement {
   outgoing?: Array<IModdleElement>;
   sourceRef?: IModdleElement;
   calledElement?: string;
+  categoryValueRef?: IModdleElement;
+  value?: string;
 }
