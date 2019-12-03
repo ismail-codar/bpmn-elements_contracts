@@ -27,7 +27,7 @@
   "homepage": "https://github.com/process-engine/bpmn-elements_contracts#readme",
   "devDependencies": {
     "@essential-projects/eslint-config": "^1.0.4",
-    "@process-engine/ci_tools": "^2.2.1",
+    "@process-engine/ci_tools": "^2.3.0",
     "eslint": "^6.1.0",
     "eslint-plugin-import": "^2.18.2",
     "tsconfig": "^7.0.0",
