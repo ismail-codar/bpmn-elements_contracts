@@ -21,9 +21,7 @@ jobs:
         version: 12.x
 
     - name: 'Install Dependencies'
-      run: |
-        npm ci
-        ./node_modules/.bin/ci_tools npm-install-only --except-on-primary-branches @process-engine/ @essential-projects/
+      run: npm i
 
     - name: 'Prepare Version'
       run: ./node_modules/.bin/ci_tools prepare-version --allow-dirty-workdir
